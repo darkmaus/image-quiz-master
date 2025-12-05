@@ -9,23 +9,23 @@ export interface QuizQuestion {
 export const quizQuestions: QuizQuestion[] = [
   {
     id: 1,
-    question: "¿Qué país tiene esta bandera?",
-    image: "https://images.unsplash.com/photo-1589519160732-57fc498494f8?w=600&h=400&fit=crop",
-    options: ["Brasil", "Argentina", "Colombia", "México"],
+    question: "¿Quin joc té aquest token?",
+    image: "https://i.ibb.co/fVQ954P4/imagen.png",
+    options: ["Ark Nova", "Coffe Traders", "Coffe Rush", "Café para los más cafeteros"],
     correctAnswer: 0,
   },
   {
     id: 2,
-    question: "¿En qué ciudad se encuentra este monumento?",
-    image: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=600&h=400&fit=crop",
-    options: ["Londres", "Roma", "París", "Madrid"],
+    question: "¿De quin joc estan fent cosplay?",
+    image: "https://i.ibb.co/nqy8z4fT/pic1813493.webp",
+    options: ["Obsession", "Love in the Court", "Love Letter", "Red Carpet"],
     correctAnswer: 2,
   },
   {
     id: 3,
-    question: "¿Qué animal es este?",
-    image: "https://images.unsplash.com/photo-1474511320723-9a56873571b7?w=600&h=400&fit=crop",
-    options: ["León", "Tigre", "Leopardo", "Guepardo"],
+    question: "¿Quin d'aquests jocs es de Isra & Shei (Llamadice)?",
+    image: "https://i.ibb.co/rR3Sd0PH/pic7952326.webp",
+    options: ["Zumos", "Smoothies", "Virus", "Autumn"],
     correctAnswer: 1,
   },
   {
