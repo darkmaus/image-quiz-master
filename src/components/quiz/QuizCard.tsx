@@ -6,10 +6,9 @@ import { cn } from "@/lib/utils";
 interface QuizCardProps {
   question: QuizQuestion;
   onAnswer: (isCorrect: boolean) => void;
-  questionNumber: number;
 }
 
-const QuizCard = ({ question, onAnswer, questionNumber }: QuizCardProps) => {
+const QuizCard = ({ question, onAnswer }: QuizCardProps) => {
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
   const [isRevealed, setIsRevealed] = useState(false);
 
@@ -27,7 +26,7 @@ const QuizCard = ({ question, onAnswer, questionNumber }: QuizCardProps) => {
   };
 
   return (
-    <div className="animate-scale-in" key={questionNumber}>
+    <div className="animate-scale-in">
       <div className="bg-card rounded-2xl card-shadow overflow-hidden">
         {/* Image */}
         <div className="relative h-48 md:h-64 overflow-hidden">
