@@ -5,15 +5,15 @@ import QuizCard from "./QuizCard";
 import QuizResults from "./QuizResults";
 import { Sparkles } from "lucide-react";
 
+const MAX_POSSIBLE_SCORE = quizQuestions.length * 1000;
+
 const QuizGame = () => {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [score, setScore] = useState(0);
   const [isFinished, setIsFinished] = useState(false);
 
-  const handleAnswer = (isCorrect: boolean) => {
-    if (isCorrect) {
-      setScore((prev) => prev + 1);
-    }
+  const handleAnswer = (points: number) => {
+    setScore((prev) => prev + points);
 
     if (currentQuestion < quizQuestions.length - 1) {
       setCurrentQuestion((prev) => prev + 1);
@@ -60,7 +60,7 @@ const QuizGame = () => {
               <div className="flex justify-center mb-6">
                 <div className="bg-card px-6 py-2 rounded-full shadow-lg">
                   <span className="font-bold text-muted-foreground">Puntos: </span>
-                  <span className="font-black text-primary text-xl">{score}</span>
+                  <span className="font-black text-primary text-xl">{score.toLocaleString()}</span>
                 </div>
               </div>
 
@@ -74,7 +74,7 @@ const QuizGame = () => {
           ) : (
             <QuizResults
               score={score}
-              total={quizQuestions.length}
+              total={MAX_POSSIBLE_SCORE}
               onRestart={handleRestart}
             />
           )}
