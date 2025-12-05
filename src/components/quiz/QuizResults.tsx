@@ -11,19 +11,28 @@ const QuizResults = ({ score, total, onRestart }: QuizResultsProps) => {
   const percentage = Math.round((score / total) * 100);
 
   const getMessage = () => {
-    if (percentage === 100) return "¡Perfecto! 🎉";
-    if (percentage >= 80) return "¡Excelente! 🌟";
-    if (percentage >= 60) return "¡Bien hecho! 👏";
-    if (percentage >= 40) return "¡Sigue practicando! 💪";
+    if (percentage >= 90) return "¡Perfecto! 🎉";
+    if (percentage >= 70) return "¡Excelente! 🌟";
+    if (percentage >= 50) return "¡Bien hecho! 👏";
+    if (percentage >= 30) return "¡Sigue practicando! 💪";
     return "¡Inténtalo de nuevo! 🔄";
   };
 
   const getEmoji = () => {
-    if (percentage === 100) return "🏆";
-    if (percentage >= 80) return "🥇";
-    if (percentage >= 60) return "🥈";
-    if (percentage >= 40) return "🥉";
+    if (percentage >= 90) return "🏆";
+    if (percentage >= 70) return "🥇";
+    if (percentage >= 50) return "🥈";
+    if (percentage >= 30) return "🥉";
     return "📚";
+  };
+
+  const getStars = () => {
+    if (percentage >= 90) return 5;
+    if (percentage >= 70) return 4;
+    if (percentage >= 50) return 3;
+    if (percentage >= 30) return 2;
+    if (percentage >= 10) return 1;
+    return 0;
   };
 
   return (
@@ -49,14 +58,11 @@ const QuizResults = ({ score, total, onRestart }: QuizResultsProps) => {
           <p className="text-muted-foreground text-lg mb-4">Tu puntuación</p>
           <div className="flex items-center justify-center gap-2">
             <span className="text-6xl md:text-7xl font-black text-primary">
-              {score}
-            </span>
-            <span className="text-3xl md:text-4xl font-bold text-muted-foreground">
-              / {total}
+              {score.toLocaleString()}
             </span>
           </div>
-          <p className="text-xl font-semibold text-secondary mt-2">
-            {percentage}% correcto
+          <p className="text-xl font-semibold text-muted-foreground mt-2">
+            de {total.toLocaleString()} puntos posibles
           </p>
         </div>
 
@@ -67,7 +73,7 @@ const QuizResults = ({ score, total, onRestart }: QuizResultsProps) => {
               key={i}
               className={cn(
                 "w-8 h-8 transition-all duration-300",
-                i < Math.ceil((percentage / 100) * 5)
+                i < getStars()
                   ? "text-accent fill-accent"
                   : "text-muted"
               )}

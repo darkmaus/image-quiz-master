@@ -42,4 +42,11 @@ export const quizQuestions: QuizQuestion[] = [
     options: ["Mango", "Papaya", "Piña", "Banana"],
     correctAnswer: 3,
   },
+  {
+    id: 6,
+    question: "¿Qué maravilla del mundo es esta?",
+    image: "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?w=600&h=400&fit=crop",
+    options: ["Machu Picchu", "Taj Mahal", "Coliseo", "Gran Muralla"],
+    correctAnswer: 0,
+  },
 ];
