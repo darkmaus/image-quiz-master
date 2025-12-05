@@ -66,9 +66,9 @@ const QuizGame = () => {
 
               {/* Quiz Card */}
               <QuizCard
+                key={currentQuestion}
                 question={quizQuestions[currentQuestion]}
                 onAnswer={handleAnswer}
-                questionNumber={currentQuestion}
               />
             </>
           ) : (
