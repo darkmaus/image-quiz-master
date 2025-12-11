@@ -62,7 +62,7 @@ const QuizCard = ({ question, onAnswer }: QuizCardProps) => {
     <div className="animate-scale-in">
       <div className="bg-card rounded-2xl card-shadow overflow-hidden">
         {/* Image */}
-        <div className="relative h-48 md:h-64 overflow-hidden">
+        <div className="relative h-96 md:h-[512px] overflow-hidden">
           <img
             src={question.image}
             alt="Quiz question"
