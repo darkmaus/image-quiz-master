@@ -150,7 +150,7 @@ export const quizQuestions: QuizQuestion[] = [
   correctAnswer: 1,
 },
   {
-  id: 20,
+  id: 17,
   question: "En *Covenant*, quina acció principal no és realitzada mitjançant una eina específica amb assignació d’enans?",
   image: "",
   options: [
