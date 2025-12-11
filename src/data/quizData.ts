@@ -33,7 +33,7 @@ export const quizQuestions: QuizQuestion[] = [
     question: "¿Quin d'aquests jocs wargame no está editat per DEVIR?",
     image: "https://i.ibb.co/4ZGQWXcM/imagen.png",
     options: ["España 1936", "Senderos de Gloria", "Pacífico", "2GM Pacific"],
-    correctAnswer: 2,
+    correctAnswer: 3,
   },
   {
     id: 5,
