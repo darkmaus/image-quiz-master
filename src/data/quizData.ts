@@ -38,14 +38,14 @@ export const quizQuestions: QuizQuestion[] = [
   {
     id: 5,
     question: "¿Qui va guanyar el premi DAU 2025 a millor autoria del any?",
-    image: "https://images.unsplash.com/photo-1528825871115-3581a5387919?w=600&h=400&fit=crop",
+    image: "https://i.ibb.co/gb8sQNTB/imagen.png",
     options: ["Germán P. Millán", "Stefan Feld", "Tomáš Holek", "Elver Galarga"],
     correctAnswer: 1,
   },
   {
     id: 6,
     question: "¿Com es diu el tipus de joc en el que el jugador va comprant cartes i millores per la seva baralla?",
-    image: "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?w=600&h=400&fit=crop",
+    image: "https://i.ibb.co/bjJXKG7Q/imagen.png",
     options: ["Deck Building", "Construcció de Baralles", "Eurogame", "Construcción de mazos"],
     correctAnswer: 1,
   },
