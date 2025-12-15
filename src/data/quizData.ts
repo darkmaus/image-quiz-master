@@ -140,7 +140,7 @@ export const quizQuestions: QuizQuestion[] = [
 {
   id: 16,
   question: "Quina és la mecànica principal que utilitza Coming of Age per reflectir l’evolució del teu personatge des de la infància fins a l’edat adulta?",
-  image: "https://i.ibb.co/gb8sQNTB/imagen.png",
+  image: "https://i.ibb.co/b5gGrwp2/imagen.png",
   options: [
     "Col·locació de treballadors i comerç entre jugadors",
     "Gestió de daus per visitar ubicacions i avançar al teu tauler personal",
@@ -152,7 +152,7 @@ export const quizQuestions: QuizQuestion[] = [
   {
   id: 17,
   question: "En *Covenant*, quina acció principal no és realitzada mitjançant una eina específica amb assignació d’enans?",
-  image: "https://i.ibb.co/gb8sQNTB/imagen.png",
+  image: "https://i.ibb.co/jvHKyGvH/imagen.png",
   options: [
     "Excavar la muntanya per revelar salons i obtenir recursos",
     "Atacar enemics per netejar salons i guanyar prestigi",
@@ -164,7 +164,7 @@ export const quizQuestions: QuizQuestion[] = [
   {
   id: 18,
   question: "Quina secció del programa de Cunyadisme Lúdic mescla música i jocs de taula",
-  image: "https://i.ibb.co/gb8sQNTB/imagen.png",
+  image: "https://i.ibb.co/VYk5yDf9/imagen.png",
   options: [
     "Dice the track",
     "RadioMeeple",
