@@ -116,3 +116,4 @@ const QuizCard = ({ question, onAnswer }: QuizCardProps) => {
   );
 };
 
+export default QuizCard;
