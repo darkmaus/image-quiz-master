@@ -78,7 +78,7 @@ export const quizQuestions: QuizQuestion[] = [
 {
   id: 10,
   question: "Quina és una de les característiques principals de Bomb Busters?",
-  image: "",
+  image: "https://i.ibb.co/gb8sQNTB/imagen.png",
   options: [
     "Complexa gestió de recursos i mapes modulars",
     "Comunicació i deducció cooperativa amb cartes ocultes",
@@ -90,14 +90,14 @@ export const quizQuestions: QuizQuestion[] = [
 {
   id: 11,
   question: "Quin joc espanyol de gestió de recursos i estratègia va ser destacat com a llançament esperat per a finals de 2025?",
-  image: "",
+  image: "https://i.ibb.co/gb8sQNTB/imagen.png",
   options: ["La Cort del Tsar", "Covenant", "Transgalactica", "Earthborne Rangers"],
   correctAnswer: 1,
 },
 {
   id: 12,
   question: "Star Wars: Battle of Hoth (2025) pertany a quin gènere principal?",
-  image: "",
+  image: "https://i.ibb.co/gb8sQNTB/imagen.png",
   options: [
     "Eurogame econòmic",
     "Party game lleuger",
@@ -109,7 +109,7 @@ export const quizQuestions: QuizQuestion[] = [
 {
   id: 13,
   question: "Quin títol és un nou stand-alone de la sèrie Dorfromantik publicat en català per SD Games a finals de 2025?",
-  image: "",
+  image: "https://i.ibb.co/gb8sQNTB/imagen.png",
   options: [
     "Dorfromantik: Sakura",
     "Dorfromantik: Light Luggage",
@@ -121,7 +121,7 @@ export const quizQuestions: QuizQuestion[] = [
 {
   id: 14,
   question: "Quin és l’objectiu principal dels jugadors a Mistborn: House War, ambientat en l’univers de «Nascuts de la boira»?",
-  image: "",
+  image: "https://i.ibb.co/gb8sQNTB/imagen.png",
   options: [
     "Acumular la major quantitat d’atium abans de l’ascens del Lord Legislador",
     "Gestionar crisis a la societat de l’Imperi Final representant diferents Grans Cases",
@@ -133,14 +133,14 @@ export const quizQuestions: QuizQuestion[] = [
 {
   id: 15,
   question: "Quina d’aquestes expansions de Smart 10 no existeix?",
-  image: "",
+  image: "https://i.ibb.co/gb8sQNTB/imagen.png",
   options: ["Smart 10: Entreteniment", "Smart 10: Viatges", "Smart 10: Espanya", "Smart 10: Esports"],
   correctAnswer: 3,
 },
 {
   id: 16,
   question: "Quina és la mecànica principal que utilitza Coming of Age per reflectir l’evolució del teu personatge des de la infància fins a l’edat adulta?",
-  image: "",
+  image: "https://i.ibb.co/gb8sQNTB/imagen.png",
   options: [
     "Col·locació de treballadors i comerç entre jugadors",
     "Gestió de daus per visitar ubicacions i avançar al teu tauler personal",
@@ -152,7 +152,7 @@ export const quizQuestions: QuizQuestion[] = [
   {
   id: 17,
   question: "En *Covenant*, quina acció principal no és realitzada mitjançant una eina específica amb assignació d’enans?",
-  image: "",
+  image: "https://i.ibb.co/gb8sQNTB/imagen.png",
   options: [
     "Excavar la muntanya per revelar salons i obtenir recursos",
     "Atacar enemics per netejar salons i guanyar prestigi",
@@ -160,5 +160,17 @@ export const quizQuestions: QuizQuestion[] = [
     "Negociar amb altres jugadors per intercanviar recursos"
   ],
   correctAnswer: 3
-}
+},
+  {
+  id: 18,
+  question: "Quina secció del programa de Cunyadisme Lúdic mescla música i jocs de taula",
+  image: "https://i.ibb.co/gb8sQNTB/imagen.png",
+  options: [
+    "Dice the track",
+    "RadioMeeple",
+    "Rajoletes i cançons",
+    "Joc o cancó"
+  ],
+  correctAnswer: 3
+},
 ];
