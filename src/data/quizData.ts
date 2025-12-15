@@ -52,7 +52,7 @@ export const quizQuestions: QuizQuestion[] = [
   {
   id: 7,
   question: "Quin joc va guanyar el Spiel des Jahres 2025 (premi principal)?",
-  image: "",
+  image: "https://i.ibb.co/LXJcqNR5/imagen.png",
   options: [
     "SETI: Search for Extraterrestrial Intelligence",
     "Bomb Busters",
@@ -64,21 +64,21 @@ export const quizQuestions: QuizQuestion[] = [
 {
   id: 8,
   question: "Quin dissenyador apareix com a autor de SETI: Search for Extraterrestrial Intelligence, guanyador el 2025 en categories de premsa/comunitat?",
-  image: "",
+  image: "https://i.ibb.co/8LpPJ6wf/imagen.png",
   options: ["Cole Wehrle", "Tomáš Holek", "Hisashi Hayashi", "Yohan Goh"],
   correctAnswer: 1,
 },
 {
   id: 9,
   question: "L’As d’Or 2025 va ser atorgat a:",
-  image: "",
+  image: "https://i.ibb.co/tw3LnBt8/imagen.png",
   options: ["For a Crown", "Captain Flip", "Odin", "Flip 7"],
   correctAnswer: 2,
 },
 {
   id: 10,
   question: "Quina és una de les característiques principals de Bomb Busters?",
-  image: "https://i.ibb.co/gb8sQNTB/imagen.png",
+  image: "https://i.ibb.co/JRfztDhN/imagen.png",
   options: [
     "Complexa gestió de recursos i mapes modulars",
     "Comunicació i deducció cooperativa amb cartes ocultes",
@@ -90,18 +90,18 @@ export const quizQuestions: QuizQuestion[] = [
 {
   id: 11,
   question: "Quin joc espanyol de gestió de recursos i estratègia va ser destacat com a llançament esperat per a finals de 2025?",
-  image: "https://i.ibb.co/gb8sQNTB/imagen.png",
+  image: "https://i.ibb.co/5xBbRzBW/imagen.png",
   options: ["La Cort del Tsar", "Covenant", "Transgalactica", "Earthborne Rangers"],
   correctAnswer: 1,
 },
 {
   id: 12,
   question: "Star Wars: Battle of Hoth (2025) pertany a quin gènere principal?",
-  image: "https://i.ibb.co/gb8sQNTB/imagen.png",
+  image: "https://www.komar.de/media/catalog/product/cache/13/image/9df78eab33525d08d6e5fb8d27136e95/import/api-v1.1-file-public-files-pim-assets-97-ad-84-62-6284ad972eff292d45ce1a2e-images-4c-73-f0-65-65f0734c8fcf857268b20a37-026-dvd4-star-wars-poster-classic-1-web.jpg",
   options: [
     "Eurogame econòmic",
     "Party game lleuger",
-    "Wargame tàctic amb hexàgons",
+    "Wargame tàctic",
     "Aventures (Legacy)"
   ],
   correctAnswer: 2,
@@ -109,7 +109,7 @@ export const quizQuestions: QuizQuestion[] = [
 {
   id: 13,
   question: "Quin títol és un nou stand-alone de la sèrie Dorfromantik publicat en català per SD Games a finals de 2025?",
-  image: "https://i.ibb.co/gb8sQNTB/imagen.png",
+  image: "https://i.ibb.co/PsbW9rWx/imagen.png",
   options: [
     "Dorfromantik: Sakura",
     "Dorfromantik: Light Luggage",
@@ -120,20 +120,20 @@ export const quizQuestions: QuizQuestion[] = [
 },
 {
   id: 14,
-  question: "Quin és l’objectiu principal dels jugadors a Mistborn: House War, ambientat en l’univers de «Nascuts de la boira»?",
+  question: "Quina es la mecànica principal del Gran joc en català de Devir per aquest 2026?",
   image: "https://i.ibb.co/gb8sQNTB/imagen.png",
   options: [
-    "Acumular la major quantitat d’atium abans de l’ascens del Lord Legislador",
-    "Gestionar crisis a la societat de l’Imperi Final representant diferents Grans Cases",
-    "Derrotar mitjançant combat directe les altres Cases Nobles",
-    "Controlar la producció de metal·lúrgia alomàntica"
+    "Control de àrees",
+    "Construcció de Baralles",
+    "Llençar daus per guanyar batalles",
+    "Buscar faltes al reglament"
   ],
   correctAnswer: 1,
 },
 {
   id: 15,
   question: "Quina d’aquestes expansions de Smart 10 no existeix?",
-  image: "https://i.ibb.co/gb8sQNTB/imagen.png",
+  image: "https://i.ibb.co/nqQpGjJk/imagen.png",
   options: ["Smart 10: Entreteniment", "Smart 10: Viatges", "Smart 10: Espanya", "Smart 10: Esports"],
   correctAnswer: 3,
 },
