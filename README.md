@@ -9,3 +9,6 @@ This project is built with:
 - React
 - shadcn-ui
 - Tailwind CSS
+
+
+Deployed on Vercel on 16/12/1959
